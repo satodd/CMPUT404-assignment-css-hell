@@ -1,22 +1,21 @@
 
-
 body {
 	background-color: rgb(222,221,206);
 	padding-left: 250px;
 	font-family: serif;
+	font-size: 20pt; 
 }
 
 pre {
 	text-align: center;
-	font-size: 10px;
-	width: 500px;
+	font-size: 0px;
+	height: 50px; 
 	margin: auto;
-
 }
 
 h1 {
 	text-align: center;
-	background-color: rgb(175,144,212);
+	background-color: rgb(144,195,212);
 	padding: 30px 30px 30px 30px;
 	margin-right: 20px;
 	border: 10px double;
@@ -29,7 +28,9 @@ h1 {
 h2 {
 	text-align: center;
 	font-family: Garamond;
-	font-size: 40px;
+	font-size: 40pt;
+	background-color: rgb(173, 173, 173);
+	border: 3px double;
 }
 
 p {
@@ -37,31 +38,42 @@ p {
 	padding-right: 20px
 }
 
-h2 p {
-	background-color: red;
-}
-
 hr {
-	visibility: hidden;
+	display:none;
 }
 
-blockquote, table {
-	background-color: rgb(175,144,212);
-	width: 200px;
+a {
+	color: black;
+}
+
+blockquote, table{
+	background-color: rgb(81, 119, 150);
+	width: 220px;
 	height: 100%;
 	position: fixed;
 	top: 0px;
-	left: -20px;
+	left: -35px;
 	overflow: auto;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
-.toc, td {
-
+.toc a{
 	display: block;
-	padding: 8px 8px 8px 16px;
-	background-color: grey;
+	padding: 8px 8px 16px 8px;
+	background-color: rgb(81, 119, 150);
 	text-align: center;
+	border: 3px double;
 }
 
+.toc a:hover {
+	background-color: #555;
+	color: white;
+}
+
+h2 + p::first-letter {
+	font-size: 50pt;
+	font-family: "Monsieur La Doulaise";
+}
 
 
