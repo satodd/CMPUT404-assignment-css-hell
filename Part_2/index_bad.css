@@ -1,6 +1,6 @@
 body {
 	background: linear-gradient(red, yellow);
-
+	font-family: ComicSansMS;
 }
 
 div {
@@ -90,7 +90,6 @@ p {
 	background: yellow;
 	color: white;
 	border: 5px solid;
-	line-height: 130px;
 }
 
 .circles:hover {
