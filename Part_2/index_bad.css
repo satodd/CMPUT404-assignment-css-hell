@@ -1,0 +1,99 @@
+body {
+	background: linear-gradient(red, yellow);
+
+}
+
+div {
+	display: block;
+	border: 10px;
+}
+
+img {
+	height: auto;
+	display: inline-block;
+    border: 5px solid;
+    height: 40%;
+}
+
+h2 {
+	text-align: center;
+	font-style: underline;
+}
+
+p {
+	border: 5px solid red;
+}
+
+/* Sarah Todd glitter text from http://www.familylobby.com/create-glitter-text-graphics.asp */
+
+.banner {
+	background: red;
+	background-image: url(img/Sarah_Todd_glitter.gif);
+    margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 100px;
+	color: blue;
+	text-align: center;
+}
+
+.banner:hover {
+	background-color: yellow;
+}
+
+.decor {
+	color: yellow;
+	height: 35px;
+	margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+.main {
+	background: black;
+	color: red;
+	border: 5px solid #4E4E4E;
+	border-top: 0px;
+	border-bottom: 0px;
+
+	margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.main .left {
+	float: left;
+	width: 40%;
+}
+
+.main .right {
+	float: right;
+	width: 60%;
+	background-color: black;
+}
+
+
+.bottom {
+	height: 200px;
+	text-align: center;
+	line-height: 180px;
+}
+
+.contact, .education, .interests, .history {
+	display: none;
+}
+
+
+.circles {
+	font-size: 20pt;
+	background: yellow;
+	color: white;
+	border: 5px solid;
+	line-height: 130px;
+}
+
+.circles:hover {
+	background: black;
+}
+

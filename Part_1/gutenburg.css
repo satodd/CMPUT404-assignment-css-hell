@@ -8,10 +8,12 @@ body {
 
 pre {
 	text-align: center;
-	font-size: 0px;
-	height: 50px; 
+	font-size: 10px;
+	height: 250px; 
 	margin: auto;
 }
+
+pre {}
 
 h1 {
 	text-align: center;
@@ -46,7 +48,16 @@ a {
 	color: black;
 }
 
-blockquote, table{
+img {
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+   
+    border: 5px double #4E4E4E;
+}
+
+blockquote, table {
 	background-color: rgb(81, 119, 150);
 	width: 220px;
 	height: 100%;
@@ -62,18 +73,30 @@ blockquote, table{
 	display: block;
 	padding: 8px 8px 16px 8px;
 	background-color: rgb(81, 119, 150);
+	color: rgb(222,221,206);
 	text-align: center;
 	border: 3px double;
 }
 
 .toc a:hover {
 	background-color: #555;
-	color: white;
+	color: black;
+	line-height: 30pt;
 }
 
 h2 + p::first-letter {
 	font-size: 50pt;
-	font-family: "Monsieur La Doulaise";
+	font-family: "Old English Text MT"
+
 }
 
+.fig {
+	border: 3px solid;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+}
 
+h5 a {
+	display:none;
+}

@@ -1,0 +1,145 @@
+body {
+	background: #7ACFC9;
+	background-image: url("img/poka_dots_more_more.png");
+}
+
+h2 {
+	float:left;
+	font-family: AmericanTypewriter;
+
+}
+
+h3 {
+	font-family: AmericanTypewriter;
+	font-size: 25pt;
+
+}
+
+div {
+	display: block;
+	border: 10px;
+}
+
+img {
+	width: 350px;
+	height: auto;
+	display: block;
+	margin-top: 20px;
+	margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+
+    border: 5px double #4E4E4E;
+}
+
+a {
+	color: black;
+}
+
+/* Sarah Todd: */
+.banner {
+	background: #AACE5A;
+	border: 5px solid #4E4E4E;
+	border-radius: 10px;
+	height: 125px;
+	width: 85%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+	margin-bottom: 20px;
+
+	font-family: AmericanTypewriter;
+	font-size: 100px;
+	color: #152423;
+	line-height: 130px;
+	text-align: center;
+
+}
+
+.decor {
+	background: #D8D8D8;
+	border: 5px solid #4E4E4E;
+	color: #152423;
+	height: 35px;
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.main {
+	background: #F3F3DD;
+	border: 5px solid #4E4E4E;
+	border-top: 0px;
+	border-bottom: 0px;
+
+	height: 500px;
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.main .left {
+	float: left;
+	width: 50%;
+}
+
+.main .right {
+	float: right;
+	width: 50%;
+}
+
+.bottom {
+	height: 200px;
+	text-align: center;
+	line-height: 180px;
+}
+
+.contact, .education, .interests, .history {
+	border: 10px;
+	display: none;
+
+	font-size: 15pt;
+	text-align: justify;
+	padding-right: 60px;
+}
+
+.history {
+	text-align: center;
+	padding-left: 100px;
+}
+
+.intro p {
+	text-align: center;
+	font-size: 40pt;
+	font-family: AmericanTypewriter;
+}
+
+
+.circles {
+	font-family: AmericanTypewriter;
+	font-size: 20pt;
+	display: inline-block;
+	background: #D8D8D8;
+	border: 5px solid #505050;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	line-height: 130px;
+}
+
+.circles:hover {
+	background: #AACE5A;
+}
+
+.interests {
+	font-size: 15pt;
+	text-align: justify;
+	padding-right: 60px;
+
+}
