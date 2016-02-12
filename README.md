@@ -21,4 +21,15 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Code (C) 2016 Sarah Todd
+Part 1 sources from gutenburg.org
 
+
+Part 1
+====================
+Alterations to HTML from gutenburg documents were to remove style and pre-made css files and tags. All other content is original from gutenburg with the exception of one image added to Fairy_Tales.html, to add in an image found from http://www.nearingkolob.com/wp-content/uploads/2016/01/p01dkkwy.jpg.
+
+
+Part 1
+====================
+All content is created by me with the exception of the JS code used in the html which was altered from http://stackoverflow.com/questions/10859930/how-to-display-a-div-triggered-by-onclick-event as well as the text for the banner found in index_bad.html from  http://www.familylobby.com/create-glitter-text-graphics.asp
